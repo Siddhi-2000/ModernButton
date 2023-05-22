@@ -1,0 +1,22 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, white, lightblue);
+}
+.box{
+    border-radius: 5px;
+    margin:auto;
+    padding: 7px;
+    border: 1px solid black;
+    height:15px;
+    width:100px;
+    background-color: blueviolet;
+    text-align: center;
+    transition: background-color cubic-bezier(0.29, 0.69, 0.65, 1) ease-in 0.01s;
+}
+.box:hover{
+    background-color: blue;
+}
